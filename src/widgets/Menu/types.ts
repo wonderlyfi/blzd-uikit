@@ -48,6 +48,7 @@ export interface PanelProps {
   langs: LangType[];
   setLang: (lang: LangType) => void;
   links: Array<MenuEntry>;
+  addictionals: Array<MenuEntry>;
 }
 
 export interface NavProps extends PanelProps {

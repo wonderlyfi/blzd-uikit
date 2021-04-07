@@ -10,6 +10,7 @@ import UserBlock from "./components/UserBlock";
 import { NavProps } from "./types";
 import Avatar from "./components/Avatar";
 import { MENU_HEIGHT, SIDEBAR_WIDTH_REDUCED, SIDEBAR_WIDTH_FULL } from "./config";
+import CakePrice from "./components/CakePrice";
 
 const Wrapper = styled.div`
   position: relative;
@@ -74,6 +75,7 @@ const Menu: React.FC<NavProps> = ({
   links,
   profile,
   children,
+  addictionals,
 }) => {
   const { isXl } = useMatchBreakpoints();
   const isMobile = isXl === false;
@@ -123,8 +125,8 @@ const Menu: React.FC<NavProps> = ({
           href={homeLink?.href ?? "/"}
         />
         <Flex>
+          <CakePrice cakePriceUsd={cakePriceUsd} />
           <UserBlock account={account} login={login} logout={logout} />
-          {profile && <Avatar profile={profile} />}
         </Flex>
       </StyledNav>
       <BodyWrapper>
@@ -140,6 +142,7 @@ const Menu: React.FC<NavProps> = ({
           cakePriceUsd={cakePriceUsd}
           pushNav={setIsPushed}
           links={links}
+          addictionals={addictionals}
         />
         <Inner isPushed={isPushed} showMenu={showMenu}>
           {children}

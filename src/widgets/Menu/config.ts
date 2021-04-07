@@ -15,8 +15,7 @@ export const links = [
       },
       {
         label: 'Liquidity',
-        href:
-          'https://exchange.pancakeswap.finance/#/add/BNB/0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
+        href: 'https://exchange.pancakeswap.finance/#/add/BNB/0x57067A6BD75c0E95a6A5f158455926e43E79BeB0',
         external: true,
       },
     ],
@@ -47,6 +46,10 @@ export const links = [
       },
     ],
   },
+  
+];
+
+export const addictionals = [
   {
     label: 'Github',
     icon: 'GithubIcon',
@@ -59,7 +62,13 @@ export const links = [
     href: 'https://blizzardmoney.medium.com',
     external: true,
   },
-];
+  {
+    label: 'Audit',
+    icon: 'AuditIcon',
+    external: true,
+    href: 'https://github.com/blzd-dev/blzd-frontend/blob/master/public/files/gemzAudit.pdf',
+  },
+]
 
 export const socials = [
   {
