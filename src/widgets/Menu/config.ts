@@ -90,6 +90,16 @@ export const socials = [
     icon: "TwitterIcon",
     href: "https://twitter.com/money_blizzard",
   },
+  {
+    label: "Instagram",
+    icon: "InstagramIcon",
+    href: "https://bit.ly/3tXAGwP",
+  },
+  {
+    label: "Facebook",
+    icon: "FacebookIcon",
+    href: "https://bit.ly/2PwA0Q4",
+  },
 ];
 
 export const MENU_HEIGHT = 64;

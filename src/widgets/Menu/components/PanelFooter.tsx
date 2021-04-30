@@ -137,7 +137,6 @@ const PanelFooter: React.FC<Props> = ({
         <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
       </SocialEntry> */}
       <SettingsEntry>
-        <LangSelector currentLang={currentLang} langs={langs} setLang={setLang} />
         <SocialLinks />
       </SettingsEntry>
     </Container>
