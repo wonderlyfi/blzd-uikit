@@ -55,7 +55,7 @@ const LebelSection = styled.div`
   font-size: 14px;
 `;
 
-const Icons = (IconModule as unknown) as { [key: string]: React.FC<SvgProps> };
+const Icons = IconModule as unknown as { [key: string]: React.FC<SvgProps> };
 
 const PanelFooter: React.FC<Props> = ({
   isPushed,

@@ -35,7 +35,7 @@ const MenuEntry = styled.div<Props>`
   padding: ${({ secondary }) => (secondary ? "0 32px" : "0 16px")};
   font-size: ${({ secondary }) => (secondary ? "14px" : "16px")};
   background-color: ${({ isActive, theme }) => (isActive ? theme.colors.background : "transparent")};
-  color: ${({ isActive, theme }) => isActive ? theme.colors.text : theme.colors.textSubtle};
+  color: ${({ isActive, theme }) => (isActive ? theme.colors.text : theme.colors.textSubtle)};
   border-radius: 4px;
 
   a {
@@ -46,7 +46,7 @@ const MenuEntry = styled.div<Props>`
   }
 
   svg {
-    fill: ${({ isActive, theme }) => isActive ? theme.colors.primary : theme.colors.textSubtle};
+    fill: ${({ isActive, theme }) => (isActive ? theme.colors.primary : theme.colors.textSubtle)};
   }
 
   &:hover {

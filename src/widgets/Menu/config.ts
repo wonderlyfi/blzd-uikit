@@ -46,7 +46,6 @@ export const links = [
       },
     ],
   },
-  
 ];
 
 export const addictionals = [
@@ -63,12 +62,12 @@ export const addictionals = [
     external: true,
   },
   {
-    label: 'Audit',
-    icon: 'AuditIcon',
+    label: "Audit",
+    icon: "AuditIcon",
     external: true,
-    href: 'https://github.com/blzd-dev/blzd-frontend/blob/master/public/files/gemzAudit.pdf',
+    href: "https://github.com/blzd-dev/blzd-frontend/blob/master/public/files/gemzAudit.pdf",
   },
-]
+];
 
 export const socials = [
   {
