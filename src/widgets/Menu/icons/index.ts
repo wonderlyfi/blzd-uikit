@@ -12,6 +12,8 @@ export { default as MoreIcon } from "./More";
 export { default as NftIcon } from "./Nft";
 export { default as CaveIcon } from "./Cave";
 export { default as PoolIcon } from "./Pool";
+export { default as SnowBankIcon } from "./SnowBank";
+export { default as GaleIcon } from "./Gale";
 export { default as SunIcon } from "./Sun";
 export { default as TelegramIcon } from "./Telegram";
 export { default as TicketIcon } from "./Ticket";

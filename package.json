@@ -1,6 +1,6 @@
 {
-  "name": "@blzd-dev/uikit",
-  "version": "0.13.25",
+  "name": "@blzd-dev/uikit-v2",
+  "version": "0.13.61",
   "description": "Set of UI components for Blizzard projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/blzd-dev/blzd-uikit",
+  "repository": "https://github.com/blzd-dev/blzd-uikit-v2",
   "license": "MIT",
   "scripts": {
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
