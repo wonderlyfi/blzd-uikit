@@ -1,6 +1,6 @@
 {
   "name": "@blzd-dev/uikit-v2",
-  "version": "0.13.67",
+  "version": "0.13.68",
   "description": "Set of UI components for Blizzard projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
