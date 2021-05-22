@@ -62,6 +62,12 @@ export const addictionals = [
     external: true,
   },
   {
+    label: "Wiki",
+    icon: "WikiIcon",
+    href: "https://docs.blizzard.money",
+    external: true,
+  },
+  {
     label: "Audit",
     icon: "AuditIcon",
     external: true,
