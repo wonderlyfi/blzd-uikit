@@ -22,6 +22,7 @@ export { default as TwitterIcon } from "./Twitter";
 export { default as GithubIcon } from "./Github";
 export { default as MediumIcon } from "./Medium";
 export { default as Publish0XIcon } from "./Publish0X";
+export { default as WikiIcon } from "./Wiki";
 export { default as AuditIcon } from "./Audit";
 export { default as LegacyIcon } from "./Legacy";
 export { default as InstagramIcon } from "./Instagram";

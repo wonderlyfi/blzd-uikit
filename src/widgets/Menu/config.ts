@@ -55,10 +55,22 @@ export const addictionals = [
     href: "https://github.com/blzd-dev",
     external: true,
   },
+  // {
+  //   label: "Blog",
+  //   icon: "MediumIcon",
+  //   href: "https://blizzardmoney.medium.com",
+  //   external: true,
+  // },
   {
     label: "Blog",
-    icon: "MediumIcon",
-    href: "https://blizzardmoney.medium.com",
+    icon: "Publish0XIcon",
+    href: "https://www.publish0x.com/BlizzardMoney",
+    external: true,
+  },
+  {
+    label: "Wiki",
+    icon: "WikiIcon",
+    href: "https://docs.blizzard.money",
     external: true,
   },
   {
