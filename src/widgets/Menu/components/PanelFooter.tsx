@@ -21,7 +21,7 @@ interface Props extends PanelProps, PushedProps {
 
 const Container = styled.div<{ isPushed: boolean }>`
   flex: none;
-  background-color: ${({ theme }) => theme.nav.background};
+  // background-color: ${({ theme }) => theme.nav.background};
   padding: ${({ isPushed }) => (isPushed ? "8px 16px" : "0 0 0 4px")};
 `;
 
