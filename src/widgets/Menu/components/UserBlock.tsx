@@ -17,7 +17,7 @@ const UserBlock: React.FC<Props> = ({ account, login, logout }) => {
       {account ? (
         <Button
           scale="sm"
-          style={{ backgroundColor: "transparent", borderRadius: 12, border: "1px solid #45464A" }}
+          style={{ backgroundColor: "transparent", borderRadius: 12, border: "1px solid #2f70ff", boxShadow:"#2f70ff 0px 0px 20px" }}
           onClick={() => {
             onPresentAccountModal();
           }}
