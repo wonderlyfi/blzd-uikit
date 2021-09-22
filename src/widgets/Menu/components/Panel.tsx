@@ -14,7 +14,8 @@ interface Props extends PanelProps, PushedProps {
 const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   position: fixed;
   backdrop-filter: blur( 10px );
-  padding-top: ${({ showMenu }) => (showMenu ? "80px" : 0)};
+  // padding-top: ${({ showMenu }) => (showMenu ? "80px" : 0)};
+  padding-top: 80px;
   top: 0;
   left: 0;
   display: flex;
